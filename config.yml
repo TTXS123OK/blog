@@ -1,4 +1,63 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://blog.yuguoyao.com/
+defaultContentLanguage: "zh"
+title: 于贵の小屋
 theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+languages:
+  zh:
+    languageName: "简体中文"
+    taxonomies:
+      category: categories # 技术分享、闲聊
+      tag: tags # 类似关键词
+      series: series # 一系列文章
+
+    menu:
+      main:
+        - name: 历史文章
+          url: archives/
+          weight: 8
+        - name: 搜索
+          url: search/
+          weight: 5
+
+params:
+  env: production
+  author: 于贵
+  description: "于贵の小屋 - https://github.com/TTXS123OK/blog"
+  showReadingTime: true
+  # showBreadCrumbs: true
+  displayFullLangName: true
+  showPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  # search:
+  #   enable: true
+
+  homeInfoParams:
+    Title: "于贵の博客"
+    Content: >
+      欢迎来到 **于贵の博客**。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/TTXS123OK/blog"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false

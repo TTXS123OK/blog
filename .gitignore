@@ -2,3 +2,5 @@
 /public/
 /resources/
 /certs/
+
+.hugo_build.lock
