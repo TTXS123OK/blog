@@ -1,6 +1,7 @@
 ---
 title: "Hello World"
 date: 2023-06-30T10:11:06+08:00
+draft: true
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
