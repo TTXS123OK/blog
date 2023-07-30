@@ -30,7 +30,7 @@ params:
   env: production
   author: 于贵
   description: "于贵の小屋 - https://github.com/TTXS123OK/blog"
-  showReadingTime: true
+  # showReadingTime: true
   # showBreadCrumbs: true
   displayFullLangName: true
   showPostNavLinks: true
