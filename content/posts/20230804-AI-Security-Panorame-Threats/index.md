@@ -6,7 +6,7 @@ description: ""
 tags: []
 categories: []
 series: [AI 安全全景视角]
-draft: true
+# draft: true
 ---
 
 #### 引言
@@ -18,6 +18,11 @@ draft: true
 
 如今，人工智能内容生成（AIGC）已成为科技圈的热门话题。从 ChatGPT、Claude、Bard 等大型语言模型的激烈竞争，到中国国内的阿里的通义千问、百度的文心一言等产品的涌现，再到马斯克的匆匆入局，AIGC 掀起了最新的网络热潮。这些模型的出现，无疑是一场“数字狂欢”，大量的 AI 生成的内容蜂拥而至，使得网络上的信息真假难辨。
 
+<a href="images/story.jpg" data-lightbox="mygallery">
+  <img src="images/story.jpg" style="width: 100%;">
+</a>
+
+
 这种现象，使得现在的互联网危机重重。一方面，优质的、人类创造的内容被无数劣质的 AI 生成的信息淹没，公众在获取信息时，更容易被引入误区。另一方面，当人们试图寻找真实可靠的知识和信息时，他们的理解和判断可能会受到扭曲。这不仅会影响到个人在获取信息时的理解和判断，甚至可能悄然改变群众对重要问题的公共认知，对公共政策和社会动态产生不良影响。
 
 
@@ -26,6 +31,37 @@ draft: true
 所有的 AI 模型，都由大量的数据塑造而成。我们往往忽视了一个事实，那就是每一条数据都在悄无声息地塑造着 AI 的世界观。
 
 在招聘、贷款审批、保险、刑事司法等领域，人们已经开始依赖 AI 的决策作为参考依据。然而，这些系统的训练数据中往往潜藏着大量的偏见。例如，如果招聘数据存在性别偏见，那么这种偏见很可能会影响 AI 的招聘选择，导致不公平的结果；如果在司法判案 AI 模型的训练中，犯罪报告和被捕人员的数据反映了种族偏见，那么这种偏见也会被深深地刻入之后的推理过程之中。
+
+<div class="flex-image-set">
+    <a href="images/letter1.jpg" data-lightbox="mygallery">
+        <img src="images/letter1.jpg">
+    </a>
+    <a href="images/letter1.jpg" data-lightbox="mygallery">
+        <img src="images/letter2.jpg">
+    </a>
+</div>
+
+
+<style>
+.flex-image-set {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-image-set img {
+    width: auto;
+    max-width: 49%; /* 如果需要间隙，则小于50% */
+    height: auto;
+}
+
+.flex-image-set a {
+    width: 50%; /* 分成两个 50% 的宽度 */
+    display: block;
+    overflow: hidden; /* 隐藏超出部分 */
+}
+
+</style>
+
 
 AI 的偏见与歧视还有另外一种危害社会的方式，比如社交媒体平台上的推荐算法，会不断地向用户推送其感兴趣的内容，以吸引用户的持续关注。这就可能导致用户在某个观点或想法中越陷越深，人们思想的分歧会更加明显，进一步加剧社会的极端分化。
 
